@@ -1,0 +1,10 @@
+@inproceedings{hugon2025cost,
+  title={The Cost of Packet Loss on ML-Based Traffic Analysis},
+  author={Hugon, Johann and Schmitt, Paul and Bronzino, Francesco},
+  booktitle={IEEE International Symposium on Local and Metropolitan Area Networks},
+  abbr={LANMAN},
+  year={2025},
+  pdf={Cost-of-Packet-Loss.pdf},
+  abstract = {Machine Learning (ML)-based traffic analysis relies on a data processing pipeline consisting of multiple steps that filter, process, and collect statistics, or features from raw network traffic. These steps are typically performed by in-network measurement systems deployed in existing network fabric (e.g., programmable switches) or using off-the-shelf hardware (e.g., commodity servers). In both deployment scenarios, these systems come with limited processing budgets that must be finely tuned to precisely collect the required features. Unfortunately, the ever growing traffic volume on modern networks can exhaust these budgets, ultimately resulting in packet loss. In this paper, we investigate the impact of packet loss on the performance of ML-based traffic analysis systems. As losses introduce bias in the final features set provided to the machine learning model, we hypothesize that they will negatively impact model performance. We evaluate this hypothesis by analyzing the performance of two different ML models---service classification and QoE analysis---trained on a dataset of video flows, and we measure the impact of two different packet loss models: probabilistic and bursty losses. Our results show that sporadic packet loss has little impact on performance. Conversely, bursty losses, which are more common for packet processing systems, can lead to a significant negative impact.},
+  keywords={conference}
+}

@@ -1,0 +1,90 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Johann Hugon
+    - name: Languages
+      value: French (native), English
+
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD
+      institution: ENS Lyon
+      year: 2022 - Now
+      description:
+        - Advised by Prof. Francesco Bronzino and Prof. Anthony Busson
+    #    - Description 2.
+    #    - title: Description 3.
+    #      contents:
+    #        - Sub-description 1.
+   #         - Sub-description 2.
+    - title: Master of Science in Network, System and Virtual Infrastructure
+      institution: University Claude Bernard Lyon 1
+      year: 2022
+      #description:
+      #  - Description 1.
+      #  - Description 2.
+    - title: Bachelor of Science in Computer Science
+      institution: University Claude Bernard Lyon 1
+      year: 2020
+    #  description:
+    #    - Description 1.
+    #    - Description 2.
+- title: Experience
+  type: time_table
+  contents:
+    - title: Visting Student
+      institution: NOISE Lab, University of Chicago
+      year: 2025
+      description:
+        - Advised by Prof. Nick Feamster
+        #- Description 2.
+        #- title: Description 3.
+        #  contents:
+        #    - Sub-description 1.
+       #     - Sub-description 2.
+    - title: Research Intern
+      institution: Citi LAB, LIP Lab
+      year: 2021-2022
+      description:
+        - Advised by Prof. Thomas Begin and Prof. Mathieu Cunche 
+       # - Description 2.
+
+#- title: Open Source Projects
+#  type: time_table
+#  contents:
+#    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+#      year: 2015-now
+#      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+
+#- title: Honors and Awards
+#  type: time_table
+#  contents:
+#    - year: 1921
+#      items:
+#        - Nobel Prize in Physics
+#        - Matteucci Medal
+#    - year: 2029
+#      items:
+#        - Max Planck Medal
+
+- title: Academic Interests
+  type: nested_list
+  contents:
+  - title: Network
+    items:
+      - Network Measurement, Network Monitoring, Packet Filtering
+      - Protocols and Privacy
+  - title: System
+    items:
+      - System Programming, Dynamic Configurations, Self-Monitoring
+      - Network Protocol Implementation
+      - Operating System
+
+- title: Other Interests
+  type: list
+  contents:
+    - <u>Hobbies:</u> Rock Climbing, Hiking, Via Ferrata, Skateboard, Cooking
+    - <u>Personal Interests:</u> GNU/Linux, Free and Open Source Software (FOSS), Net Neutrality 
+

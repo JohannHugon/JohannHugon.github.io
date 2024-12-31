@@ -1,0 +1,149 @@
+/*******************************************************************************
+ * Gruvbox Light Theme
+ ******************************************************************************/
+
+@use "sass:color";
+
+:root {
+  --global-bg-color: #fbf1c7; /* Gruvbox Light Background */
+  --global-code-bg-color: #f2e5bc; /* Gruvbox Light Code Block Background */
+  --global-text-color: #3c3836; /* Gruvbox Light Main Text */
+  --global-text-color-light: #928374; /* Gruvbox Light Subtle Text */
+  --global-theme-color: #d79921; /* Gruvbox Yellow */
+  --global-hover-color: #fabd2f; /* Gruvbox Bright Yellow */
+  --global-hover-text-color: #fbf1c7; /* Gruvbox Light Background */
+  --global-footer-bg-color: #ebdbb2; /* Gruvbox Light Footer */
+  --global-footer-text-color: #3c3836; /* Gruvbox Light Footer Text */
+  --global-footer-link-color: #076678; /* Gruvbox Aqua */
+  --global-distill-app-color: #ebdbb2; /* Gruvbox Light Accent */
+  --global-divider-color: rgba(60, 56, 54, 0.1); /* Gruvbox Light Divider */
+  --global-card-bg-color: #f2e5bc; /* Gruvbox Light Card Background */
+  --global-highlight-color: #cc241d; /* Gruvbox Red */
+  --global-back-to-top-bg-color: rgba(60, 56, 54, 0.4); /* Gruvbox Text Color */
+  --global-back-to-top-text-color: #fbf1c7; /* Gruvbox Light Background */
+  --global-newsletter-bg-color: #fbf1c7; /* Gruvbox Light Newsletter */
+  --global-newsletter-text-color: #3c3836; /* Gruvbox Light Newsletter Text */
+
+  --global-tip-block: #98971a; /* Gruvbox Green */
+  --global-tip-block-bg: #d5e8d2; /* Gruvbox Light Green Background */
+  --global-tip-block-text: #3c3836; /* Gruvbox Light Text */
+  --global-tip-block-title: #8ec07c; /* Gruvbox Aqua */
+  --global-warning-block: #d79921; /* Gruvbox Yellow */
+  --global-warning-block-bg: #f2e5bc; /* Gruvbox Light Yellow Background */
+  --global-warning-block-text: #3c3836; /* Gruvbox Text */
+  --global-warning-block-title: #fabd2f; /* Gruvbox Bright Yellow */
+  --global-danger-block: #cc241d; /* Gruvbox Red */
+  --global-danger-block-bg: #f9e0e0; /* Gruvbox Light Red Background */
+  --global-danger-block-text: #9d0006; /* Gruvbox Dark Red */
+  --global-danger-block-title: #fb4934; /* Gruvbox Bright Red */
+
+  #light-toggle-system {
+    padding-left: 10px;
+    padding-top: 12px;
+    display: block;
+  }
+
+  #light-toggle-dark {
+    display: none;
+  }
+
+  #light-toggle-light {
+    display: none;
+  }
+
+  .only-light {
+    display: block;
+  }
+
+  .only-dark {
+    display: none;
+  }
+
+  #back-to-top {
+    color: var(--global-back-to-top-text-color);
+    background: var(--global-back-to-top-bg-color);
+    bottom: $back-to-top-bottom;
+    right: $back-to-top-right;
+    height: $back-to-top-height;
+    width: $back-to-top-width;
+    z-index: $back-to-top-z-index;
+  }
+}
+
+html[data-theme="dark"] {
+  --global-bg-color: #282828; /* Gruvbox Dark Background */
+  --global-code-bg-color: #3c3836; /* Gruvbox Dark Code Block Background */
+  --global-text-color: #ebdbb2; /* Gruvbox Light Text */
+  --global-text-color-light: #bdae93; /* Gruvbox Subtle Text */
+  --global-theme-color: #83a598; /* Gruvbox Aqua */
+  --global-hover-color: #8ec07c; /* Gruvbox Bright Aqua */
+  --global-hover-text-color: #282828; /* Gruvbox Dark Background */
+  --global-footer-bg-color: #3c3836; /* Gruvbox Dark Footer */
+  --global-footer-text-color: #d5c4a1; /* Gruvbox Light Text */
+  --global-footer-link-color: #fabd2f; /* Gruvbox Yellow */
+  --global-distill-app-color: #504945; /* Gruvbox Dark Accent */
+  --global-divider-color: #665c54; /* Gruvbox Dark Divider */
+  --global-card-bg-color: #3c3836; /* Gruvbox Dark Card Background */
+  --global-back-to-top-bg-color: rgba(251, 241, 199, 0.5); /* Gruvbox Light Background */
+  --global-back-to-top-text-color: #282828; /* Gruvbox Dark Background */
+  --global-newsletter-bg-color: #3c3836; /* Gruvbox Dark Newsletter */
+  --global-newsletter-text-color: #d5c4a1; /* Gruvbox Light Text */
+
+  --global-tip-block: #98971a; /* Gruvbox Green */
+  --global-tip-block-bg: #323d2c; /* Gruvbox Dark Green Background */
+  --global-tip-block-text: #ebdbb2; /* Gruvbox Light Text */
+  --global-tip-block-title: #8ec07c; /* Gruvbox Aqua */
+  --global-warning-block: #d79921; /* Gruvbox Yellow */
+  --global-warning-block-bg: #3c3836; /* Gruvbox Dark Yellow Background */
+  --global-warning-block-text: #d5c4a1; /* Gruvbox Light Text */
+  --global-warning-block-title: #fabd2f; /* Gruvbox Bright Yellow */
+  --global-danger-block: #cc241d; /* Gruvbox Red */
+  --global-danger-block-bg: #3c1d1e; /* Gruvbox Dark Red Background */
+  --global-danger-block-text: #fb4934; /* Gruvbox Bright Red */
+  --global-danger-block-title: #fb4934; /* Gruvbox Bright Red */
+
+  .only-light {
+    display: none;
+  }
+
+  .only-dark {
+    display: block;
+  }
+}
+
+html[data-theme-setting="dark"] {
+  #light-toggle-system {
+    display: none;
+  }
+
+  #light-toggle-dark {
+    padding-left: 10px;
+    padding-top: 12px;
+    display: block;
+  }
+
+  #light-toggle-light {
+    display: none;
+  }
+
+  #back-to-top {
+    color: var(--global-back-to-top-text-color);
+    background: var(--global-back-to-top-bg-color);
+  }
+}
+
+html[data-theme-setting="light"] {
+  #light-toggle-system {
+    display: none;
+  }
+
+  #light-toggle-dark {
+    display: none;
+  }
+
+  #light-toggle-light {
+    padding-left: 10px;
+    padding-top: 12px;
+    display: block;
+  }
+}
