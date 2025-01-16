@@ -38,8 +38,11 @@ ninja.data = [{
           window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
         
       },
-    },{id: "news-i-m-excited-to-have-just-started-my-6-month-visit-to-the-university-of-chicago-where-i-ll-be-working-under-the-supervision-of-prof-feamster",
-          title: 'I’m excited to have just started my 6-month visit to the University of...',
+    },{id: "news-hello-world-welcome-to-my-fresh-new-website-i-will-mainly-use-it-to-share-my-research-but-it-may-evolve-over-time",
+          title: 'Hello World! Welcome to my fresh new website. I will mainly use it...',
+          description: "",
+          section: "News",},{id: "news-visiting-student-at-the-university-of-chicago-i-m-excited-to-start-my-6-month-visit-at-the-university-of-chicago-working-under-the-supervision-of-prof-feamster",
+          title: 'Visiting Student at the University of Chicago! I’m excited to start my 6-month...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
