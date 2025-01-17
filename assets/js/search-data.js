@@ -68,20 +68,6 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
             },},{
-        id: 'social-acm',
-        title: 'ACM DL',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://dl.acm.org/profile/99660612903/", "_blank");
-        },
-      },{
-        id: 'social-dblp',
-        title: 'DBLP',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://dblp.org/pid/362/4843.html", "_blank");
-        },
-      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
@@ -94,6 +80,20 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://github.com/JohannHugon", "_blank");
+        },
+      },{
+        id: 'social-acm',
+        title: 'ACM DL',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://dl.acm.org/profile/99660612903/", "_blank");
+        },
+      },{
+        id: 'social-dblp',
+        title: 'DBLP',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://dblp.org/pid/362/4843.html", "_blank");
         },
       },{
         id: 'social-orcid',
