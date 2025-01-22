@@ -82,6 +82,13 @@ ninja.data = [{
           window.open("https://github.com/JohannHugon", "_blank");
         },
       },{
+        id: 'social-researchgate',
+        title: 'ResearchGate',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.researchgate.net/profile/https://www.researchgate.net/profile/Johann-Hugon-2/", "_blank");
+        },
+      },{
         id: 'social-acm',
         title: 'ACM DL',
         section: 'Socials',
@@ -101,13 +108,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://orcid.org/0000-0002-4398-3313", "_blank");
-        },
-      },{
-        id: 'social-researchgate',
-        title: 'ResearchGate',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.researchgate.net/profile/https://www.researchgate.net/profile/Johann-Hugon-2/", "_blank");
         },
       },{
       id: 'light-theme',
