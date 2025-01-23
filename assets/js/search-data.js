@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-cv",
+          title: "cv",
+          description: "Find here my Curriculum Vitae",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
         },{id: "news-hello-world-welcome-to-my-fresh-new-website-i-will-mainly-use-it-to-share-my-research-but-it-may-evolve-over-time",
           title: 'Hello World! Welcome to my fresh new website. I will mainly use it...',
           description: "",
