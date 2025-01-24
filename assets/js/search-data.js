@@ -26,7 +26,7 @@ ninja.data = [{
         },{id: "news-hello-world-welcome-to-my-fresh-new-website-i-will-mainly-use-it-to-share-my-research-but-it-may-evolve-over-time",
           title: 'Hello World! Welcome to my fresh new website. I will mainly use it...',
           description: "",
-          section: "News",},{id: "news-i-m-excited-to-have-just-started-my-6-month-visit-to-the-university-of-chicago-where-i-ll-be-working-under-the-supervision-of-prof-feamster",
+          section: "News",},{id: "news-i-m-excited-to-have-just-started-my-6-month-visit-to-the-university-of-chicago-where-i-ll-be-working-in-the-noise-lab-under-the-supervision-of-prof-feamster",
           title: 'I’m excited to have just started my 6-month visit to the University of...',
           description: "",
           section: "News",},{id: "projects-project-1",
