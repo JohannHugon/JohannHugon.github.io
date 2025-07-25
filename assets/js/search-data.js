@@ -29,6 +29,9 @@ ninja.data = [{
           section: "News",},{id: "news-i-m-excited-to-have-just-started-my-6-month-visit-to-the-university-of-chicago-where-i-ll-be-working-in-the-noise-lab-under-the-supervision-of-prof-feamster",
           title: 'I’m excited to have just started my 6-month visit to the University of...',
           description: "",
+          section: "News",},{id: "news-i-was-delighted-to-have-the-opportunity-to-present-my-work-the-cost-of-packet-loss-on-ml-based-traffic-analysis-at-the-lanman-2025-conference-at-inria-lille",
+          title: 'I was delighted to have the opportunity to present my work, “The Cost...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
