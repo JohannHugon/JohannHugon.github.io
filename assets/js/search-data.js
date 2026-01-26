@@ -32,6 +32,9 @@ ninja.data = [{
           section: "News",},{id: "news-i-was-delighted-to-have-the-opportunity-to-present-my-work-the-cost-of-packet-loss-on-ml-based-traffic-analysis-at-the-lanman-2025-conference-at-inria-lille",
           title: 'I was delighted to have the opportunity to present my work, “The Cost...',
           description: "",
+          section: "News",},{id: "news-i-am-pleased-to-announce-that-i-successfully-defended-my-thesis-system-constrained-feature-extraction-pipelines-for-network-traffic-monitoring",
+          title: 'I am pleased to announce that I successfully defended my thesis “System-Constrained Feature...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
