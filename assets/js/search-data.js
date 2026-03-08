@@ -3,8 +3,8 @@ const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [{
-    id: "nav-about",
-    title: "About",
+    id: "nav-",
+    title: "",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
@@ -34,6 +34,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-i-am-pleased-to-announce-that-i-successfully-defended-my-thesis-system-constrained-feature-extraction-pipelines-for-network-traffic-monitoring",
           title: 'I am pleased to announce that I successfully defended my thesis “System-Constrained Feature...',
+          description: "",
+          section: "News",},{id: "news-i-am-glad-to-begin-a-postdoc-at-uclouvain-within-the-group-of-prof-cristel-pelsser-looking-forward-to-seeing-where-this-new-chapter-leads",
+          title: 'I am glad to begin a postdoc at UCLouvain within the group of...',
           description: "",
           section: "News",},{
         id: 'social-email',
