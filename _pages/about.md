@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Postdoc, <a href='https://www.rfc-editor.org/rfc/rfc2026.html#section-4.2.1'>Experimental</a> · <a href='https://www.uclouvain.be/en/research-institutes/icteam/ingi'> INGI</a>, <a href='https://www.uclouvain.be/fr'>UCLouvain</a>
+subtitle: Postdoc, <a href='https://www.rfc-editor.org/rfc/rfc2026.html#section-4.2.1'>Experimental</a> - <a href='https://www.uclouvain.be/en/research-institutes/icteam/ingi'> INGI</a>, <a href='https://www.uclouvain.be/fr'>UCLouvain</a>
 profile:
   align: right
   image: prof_pic.jpg
@@ -12,8 +12,6 @@ profile:
     <p>2 Place Sainte Barbe,</p>
     <p>1348 Louvain-la-Neuve,</p>
     <p>Belgium </p>
-
- – 
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
